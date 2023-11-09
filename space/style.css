@@ -29,6 +29,16 @@ body {
 	list-style-type: none;
 	font-size: 20px;
 }
+.navs > ul > li > a {
+	text-decoration: none;
+	color: white;
+}
+.navs > ul > li > a:hover {
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+}
+
 .main {
 	display: flex;
 	align-items: center;
