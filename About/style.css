@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	background-image: url(https://media.giphy.com/media/3FQnzzkvLVO7n11iv5/giphy.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	flex: 1;
+}
+
+.space-things {
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.first > img,
+.second > img,
+.third > img,
+.fourth > img {
+	width: 50vh;
+	height: 50vh;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	text-shadow: 8px 6px black;
+}
