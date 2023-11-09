@@ -37,7 +37,7 @@ body {
 }
 .footer {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	text-shadow: 8px 6px black;
 }
 
@@ -46,11 +46,18 @@ body {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}
+	.first > img,
+	.second > img,
+	.third > img,
+	.fourth > img {
+		width: 25vh;
+		height: 25vh;
+	}
 }
-
+/* 
 @media (max-width: 576px) {
 	.space-things {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}
-}
+} */
