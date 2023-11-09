@@ -6,6 +6,11 @@ body {
 	margin: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	/* font-family: chopin; */
+	background-image: url(https://media.giphy.com/media/xTiTnBSIn7vTqCDKJW/giphy.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
 }
 
 .avatar {
