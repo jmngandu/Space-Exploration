@@ -53,6 +53,13 @@ body {
 	border-radius: 10px;
 	font-size: 20px;
 }
+.btn-explore > a {
+	text-decoration: none;
+}
+.btn-explore:hover {
+	background-color: black;
+	border: none;
+}
 #close-btn,
 #open-btn {
 	display: none;
