@@ -52,12 +52,17 @@ body {
 	border-radius: 10px;
 	font-size: 20px;
 }
-
+.humberger {
+	display: none;
+}
 @media screen and (max-width: 768px) {
 	.title {
 		color: brown;
 	}
 	.navs {
 		display: none;
+	}
+	.humberger {
+		display: block;
 	}
 }
