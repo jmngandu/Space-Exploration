@@ -58,13 +58,16 @@ body {
 	padding: 5px 0px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 578px) {
 	.title {
 		color: brown;
 	}
 	.navs {
 		margin-top: 40px;
 		display: none;
+	}
+	.navs > ul {
+		flex-direction: column;
 	}
 	#open-btn {
 		display: contents;

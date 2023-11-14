@@ -2,7 +2,7 @@ const closeBtn = document.getElementById('close-btn');
 const openBtn = document.getElementById('open-btn');
 const navsBtn = document.querySelector('.navs');
 openBtn.addEventListener('click', function () {
-	navsBtn.style.display = 'block';
+	navsBtn.style.display = 'flex';
 	closeBtn.style.display = 'block';
 	openBtn.style.display = 'none';
 });
