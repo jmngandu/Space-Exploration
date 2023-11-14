@@ -9,7 +9,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-image: url(https://media.giphy.com/media/Z9WQLSrsQKH3uBbiXq/giphy.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
