@@ -16,7 +16,6 @@ body {
 	background-image: url(https://media.giphy.com/media/TKZ9rCV0yXRV4ewQIa/giphy-downsized-large.gif);
 	display: flex;
 	justify-content: space-between;
-	color: brown;
 }
 .title {
 	text-shadow: 2px 2px 1px yellow;
