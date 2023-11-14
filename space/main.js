@@ -4,7 +4,10 @@ const navsBtn = document.querySelector('.navs');
 openBtn.addEventListener('click', function () {
 	navsBtn.style.display = 'block';
 	closeBtn.style.display = 'block';
+	openBtn.style.display = 'none';
 });
 closeBtn.addEventListener('click', function () {
-	alert('Hello');
+	openBtn.style.display = 'block';
+	closeBtn.style.display = 'none';
+	navsBtn.style.display = 'none';
 });

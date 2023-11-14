@@ -63,6 +63,7 @@ body {
 		color: brown;
 	}
 	.navs {
+		margin-top: 40px;
 		display: none;
 	}
 	#open-btn {
@@ -71,6 +72,8 @@ body {
 	}
 	#close-btn {
 		display: none;
-		/* display: contents; */
+		right: 2px;
+		position: absolute;
+		padding-top: 5px;
 	}
 }
