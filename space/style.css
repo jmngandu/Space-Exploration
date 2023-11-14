@@ -80,4 +80,7 @@ body {
 		position: absolute;
 		padding-top: 5px;
 	}
+	.header > h1 {
+		font-size: 20px;
+	}
 }
