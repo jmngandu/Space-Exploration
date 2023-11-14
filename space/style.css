@@ -52,9 +52,12 @@ body {
 	border-radius: 10px;
 	font-size: 20px;
 }
-.humberger {
+#close-btn,
+#open-btn {
 	display: none;
+	padding: 5px 0px;
 }
+
 @media screen and (max-width: 768px) {
 	.title {
 		color: brown;
@@ -62,7 +65,14 @@ body {
 	.navs {
 		display: none;
 	}
-	.humberger {
-		display: block;
+	#open-btn {
+		display: contents;
+		/* display: none; */
+		padding: 5px;
+		margin-left: 20px;
+	}
+	#close-btn {
+		display: none;
+		/* display: contents; */
 	}
 }
