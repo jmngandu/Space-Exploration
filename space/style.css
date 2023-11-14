@@ -58,7 +58,7 @@ body {
 	padding: 5px 0px;
 }
 
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 768px) {
 	.title {
 		color: brown;
 	}
