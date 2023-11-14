@@ -68,8 +68,6 @@ body {
 	#open-btn {
 		display: contents;
 		/* display: none; */
-		padding: 5px;
-		margin-left: 20px;
 	}
 	#close-btn {
 		display: none;
