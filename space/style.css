@@ -68,10 +68,7 @@ body {
 		margin: auto;
 	}
 	.navs > ul {
-		color: blue;
-		background-color: #fff;
 		flex-direction: column;
-		left: 20px;
 	}
 	#open-btn {
 		display: contents;
