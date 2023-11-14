@@ -6,7 +6,7 @@ openBtn.addEventListener('click', function () {
 	closeBtn.style.display = 'block';
 	openBtn.style.display = 'none';
 });
-closeBtn.addEventListener('click', function () {
+closeBtn.addEventListener('click', () => {
 	openBtn.style.display = 'block';
 	closeBtn.style.display = 'none';
 	navsBtn.style.display = 'none';
